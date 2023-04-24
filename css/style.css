@@ -1,0 +1,29 @@
+:root {
+    --globla-nav-color : #e614ff;
+    --globla-dark-pink-color : #ff1481;
+    --global-dark-blue-color : #112e41;
+    --global-dark-blue-bg-color : #162b45;
+    --global-text-dark-gray-color : #888888;
+    --global-text-white-gray: #abb2ba;
+    --global-text-medium-gray : #646464;
+    --global-white-color : #fff;
+    --global-black-color : #000;
+    --global-roboto-font : 'Roboto', sans-serif;
+    --global-oswald-font : 'Oswald', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(var(--global-dark-blue-color),var(--globla-dark-pink-color));
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--globla-dark-pink-color);
+    border: 1px solid var(--global-white-color);
+    border-radius: 4px;
+}
