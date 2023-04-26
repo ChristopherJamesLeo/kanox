@@ -806,3 +806,35 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(0);
 }
 /* End Footer Section */
+
+/* ------------------------- */
+/* --------about us -------- */
+/* ------------------------- */
+/* Start side banner section */
+.side_banner_container {
+    background-image: linear-gradient(#162b45b9,#162b45b9),url("./../assets/imgs/banners/breadcrumb.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side_banner_content_container {
+    padding: 230px 0px;
+
+    display: grid;
+    place-items: center;
+}
+.side_banner_content h1{
+    color: var(--global-white-color);
+    font-size: 45px;
+    font-family: var(--global-oswald-font);
+}
+.side_banner_content span {
+    color: var(--global-white-color);
+    font-size: 20px;
+    font-family: var(--global-roboto-font);
+}
+.side_banner_content span a {
+    color: inherit;
+    text-decoration: none;
+}
+/* End side banner section */
