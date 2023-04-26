@@ -838,3 +838,95 @@ body::-webkit-scrollbar-thumb {
     text-decoration: none;
 }
 /* End side banner section */
+
+/* ----------------------------------- */
+/* -------------blog page ------------ */
+/* ----------------------------------- */
+/* Start Single Blog Section */
+.blog_img_container {
+    position: relative;
+}
+.blog_date {
+    padding: 30px 40px;
+    color: var(--global-white-color);
+    background-color: var(--globla-dark-pink-color);
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+.blog_date div h3 {
+    line-height: 0.8;
+    font-size: 50px;
+}
+.blog_date div span {
+    font-size: 30px;
+    line-height: 0.8;
+}
+.blog_content_container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.103);
+}
+.blog_content_container h3 {
+    margin-bottom: 20px;
+    color: var(--global-dark-blue-bg-color);
+    font-size: 35px;
+    font-family: var(--global-oswald-font);
+    cursor: pointer;
+
+}
+.blog_content_container p {
+    color: var(--global-text-dark-gray-color);
+    font-size: 18px;
+    font-family: var(--global-roboto-font);
+}
+.blog_content_container .blog_info {
+    color: var(--global-text-dark-gray-color);
+    font-size: 18px;
+    font-family: var(--global-roboto-font);
+}
+.blog_right_content {
+    background-color: #fbf9ff;
+}
+.search_key_word .form-group {
+    position: relative;
+}
+.search_key_word .form-group input {
+    padding: 15px 20px;
+}
+.search_key_word .form-group input:focus {
+    box-shadow: none;
+}
+.search_key_word .form-group span{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search_key_word button {
+    padding: 15px ;
+    color: var(--global-white-color) !important;
+    background-color: var(--globla-dark-pink-color) !important;
+    font-weight: 600;
+}
+
+.blog_right_header h3 {
+    color: var(--global-dark-blue-bg-color);
+    font-size: 30px;
+    font-family: var(--global-oswald-font);
+}
+.blog_right_body .blog_right_body_content a {
+    color: var(--global-text-medium-gray);
+    font-size: 18px;
+    font-family: var(--global-roboto-font);
+}
+.blog_recent_post_img {
+    width: 100px;
+    height: 100px;
+}
+.blog_insta_img_container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+/*End Single Blog Section */
