@@ -84,3 +84,8 @@ IO.observe( shirt );
 IO.observe( bag );
 IO.observe( cafe );
 // end Happy Client Counter
+
+
+// Wow Start 
+new WOW().init();
+// Wow End

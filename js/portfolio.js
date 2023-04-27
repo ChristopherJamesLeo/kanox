@@ -50,3 +50,6 @@ $(window).on("load",function(){
 
 // End Preloader
 
+// Wow Start 
+new WOW().init();
+// Wow End
